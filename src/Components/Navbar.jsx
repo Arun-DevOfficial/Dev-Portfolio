@@ -25,12 +25,12 @@ export default function Navbar() {
         <img src={HeaderBackground} alt="Header" className="w-full" />
       </div>
       <nav className="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
-        <h1 className="text-3xl cursor-pointer font-bold text-slate-800 flex items-center lg:ml-20">
+        <h1 className="text-3xl cursor-pointer text-slate-800 flex items-center lg:ml-20 font-Ovo">
           Arun
           <span className="inline-block bg-purple-700 w-2 h-2 rounded-full"></span>
         </h1>
 
-        <ul className="hidden md:flex gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50">
+        <ul className="hidden md:flex gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50 font-Ovo">
           <li>
             <a href="#">Home</a>
           </li>
@@ -38,13 +38,13 @@ export default function Navbar() {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#work">My Work</a>
+            <a href="#services">Services</a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
 
@@ -53,7 +53,7 @@ export default function Navbar() {
             {!Theme ? <IoMoonOutline size={23} /> : <LuSunMedium size={23} />}
           </button>
 
-          <div className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full cursor-pointer">
+          <div className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full cursor-pointer font-Ovo">
             <p className="font-medium text-md">Contact</p>
             <TbPhoneCall size={20} />
           </div>

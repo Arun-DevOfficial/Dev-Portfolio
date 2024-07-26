@@ -1,4 +1,4 @@
-import Avatar from "../assets/images/user-image.png";
+import Avatar from "../assets/Arunkumar.png";
 import Code from "../assets/images/code-icon.png";
 import Education from "../assets/images/edu-icon.png";
 import Project from "../assets/images/project-icon.png";
@@ -12,20 +12,20 @@ import Dev from "../assets/images/dev-icon.png";
 export default function About() {
   return (
     <section className="mx-auto sm:px-[6%] py-10 scroll-mt-20" id="about">
-      <h4 className="text-center mb-2 text-lg">Introduction</h4>
-      <h2 className="text-center text-5xl">About Me</h2>
+      <h4 className="text-center mb-2 text-lg font-Ovo">Introduction</h4>
+      <h2 className="text-center text-5xl font-Ovo">About Me</h2>
       <div className="flex flex-col lg:flex-row items-center gap-20 my-20 max-w-[70%] mx-auto">
         <div className="max-w-max mx-auto relative">
           <img
             src={Avatar}
             alt="Avatar"
-            className="w-64 sm:w-80 rounded-3xl max-w-none"
+            className="w-64 sm:w-80 rounded-3xl max-w-none border"
           />
           <div className="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center">
             <img
               src={CirculorText}
               alt="Circular Text"
-              className="transform rotate-[360] duration-500 ease-linear infinite"
+              className="transform rotate-[360] duration-700 ease-linear infinite"
             />
 
             <img
@@ -36,7 +36,7 @@ export default function About() {
           </div>
         </div>
         <div className="flex-1">
-          <p className="mb-10 max-w-2xl leading-relaxed text-lg text-justify">
+          <p className="mb-10 max-w-2xl leading-relaxed text-lg text-justify font-Ovo">
             I am experienced MERN Stack Developer with 2 years of professional
             expertise in the field. Throughout my career, I have had the
             privilege of collaborating with prestigious organizations,
@@ -63,7 +63,7 @@ export default function About() {
               </p>
             </li>
           </ul>
-          <h4 className="my-6 text-gray-700">Tools I Use</h4>
+          <h4 className="my-6 text-gray-700 font-Ovo">Tools I Use</h4>
           <ul className="flex items-center gap-3 sm:gap-5">
             <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
               <img src={Vscode} alt="vscode" className="w-5 sm:w-7" />

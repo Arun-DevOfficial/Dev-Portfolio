@@ -1,4 +1,4 @@
-import Profile from "../assets/images/profile-img.png";
+import Profile from "../assets/Avatar.png";
 import Hand from "../assets/images/hand-icon.png";
 import { TiArrowRight } from "react-icons/ti";
 import { FiDownload } from "react-icons/fi";
@@ -7,16 +7,16 @@ export default function Header() {
   return (
     <>
       <header className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
-        <img src={Profile} alt="Arun" className="rounded-full w-32" />
-        <h3 className="flex items-center font-semibold gap-2 text-xl md:text-2xl mb-3">
+        <img src={Profile} alt="Arun" className="rounded-full w-32 border" />
+        <h3 className="flex items-center font-Ovo font-medium gap-2 text-xl md:text-2xl mb-3">
           Hi! I'm Arun Kumar
           <img src={Hand} alt="Welcome" className="w-6" />
         </h3>
         <h1 className="text-3xl sm:text-6xl lg:text-[66px]">
           MERN Stack Developer Based in India
         </h1>
-        <p className="max-w-2xl mx-auto">
-          I am a Full Stack Developer from Tamil Nadu, India, with 2 years of
+        <p className="max-w-3xl mx-auto font-Ovo">
+          I am a Full Stack Developer from Tamil Nadu, India. With 2 years of
           experience. My expertise spans front-end to back-end development, and
           I also have a passion for mentoring others in the field.
         </p>
