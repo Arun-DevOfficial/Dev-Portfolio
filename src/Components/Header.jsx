@@ -9,7 +9,7 @@ export default function Header() {
       <header className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
         <img src={Profile} alt="Arun" className="rounded-full w-32 border" />
         <h3 className="flex items-center font-Ovo font-medium gap-2 text-xl md:text-2xl mb-3">
-          Hi! I'm Arun Kumar
+          Hi! I'm Krishna
           <img src={Hand} alt="Welcome" className="w-6" />
         </h3>
         <h1 className="text-3xl sm:text-6xl lg:text-[66px]">

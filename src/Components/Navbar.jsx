@@ -30,7 +30,7 @@ export default function Navbar() {
           <span className="inline-block bg-purple-700 w-2 h-2 rounded-full"></span>
         </h1>
 
-        <ul className="hidden md:flex gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50 font-Ovo">
+        <ul className="hidden md:flex gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50 font-Ovo md:ml-20">
           <li>
             <a href="#">Home</a>
           </li>
