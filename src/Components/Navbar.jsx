@@ -1,6 +1,4 @@
 import { TbPhoneCall } from "react-icons/tb";
-import { IoMoonOutline } from "react-icons/io5";
-import { LuSunMedium } from "react-icons/lu";
 import { useState } from "react";
 import HeaderBackground from "../assets/images/header-bg-color.png";
 import { LuAlignRight } from "react-icons/lu";
@@ -17,7 +15,6 @@ import {
 } from "react-icons/fa6";
 
 export default function Navbar() {
-  const [Theme, setTheme] = useState(false);
   const [openMenu, setOpenMenu] = useState(false);
   return (
     <>
@@ -49,10 +46,6 @@ export default function Navbar() {
         </ul>
 
         <div className="flex items-center gap-4">
-          <button onClick={() => setTheme(!Theme)} aria-label="Toggle theme">
-            {!Theme ? <IoMoonOutline size={23} /> : <LuSunMedium size={23} />}
-          </button>
-
           <div className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full cursor-pointer font-Ovo">
             <p className="font-medium text-md">Contact</p>
             <TbPhoneCall size={20} />
